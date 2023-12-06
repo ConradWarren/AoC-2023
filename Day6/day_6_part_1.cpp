@@ -1,3 +1,7 @@
+#include <fstream>
+#include <string>
+#include <vector>
+
 int Solve_Number_of_Ways(const std::string& input_file_path) {
 
 	std::ifstream file(input_file_path);
