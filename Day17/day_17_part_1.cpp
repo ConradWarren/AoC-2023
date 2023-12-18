@@ -67,10 +67,6 @@ int Find_Min_Loss(const std::string& input_file_path) {
 	while (std::getline(file, current_line)){
 		grid.push_back(current_line);
 	}
-	std::cout << grid.size() << '\n';
-	std::cout << grid[0].size() << '\n';
-
-	std::cout << "starting search\n";
 
 	return Djikstra(grid);
 }
